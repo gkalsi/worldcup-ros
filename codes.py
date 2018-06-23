@@ -426,7 +426,7 @@ Names = {
     "POL" : "Poland", 
     "MDA" : "Republic of Moldova", 
     "ROU" : "Romania", 
-    "RUS" : "Russian", 
+    "RUS" : "Russia", 
     "SVK" : "Slovakia", 
     "UKR" : "Ukraine", 
     "ALA" : "Åland Islands", 
