@@ -1,0 +1,10 @@
+{
+    "A" : ["RUS", "URY", "EGY", "SAU"],
+    "B" : ["ESP", "PRT", "IRN", "MAR"],
+    "C" : ["FRA", "DNK", "AUS", "PER"],
+    "D" : ["HRV", "NGA", "ISL", "ARG"],
+    "E" : ["BRA", "CHE", "SRB", "CRI"],
+    "F" : ["SWE", "MEX", "DEU", "KOR"],
+    "G" : ["BEL", "ENG", "TUN", "PAN"],
+    "H" : ["JPN", "SEN", "POL", "COL"]
+}
