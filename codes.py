@@ -380,7 +380,7 @@ Names = {
     "PRK" : "North Korea", 
     "JPN" : "Japan", 
     "MNG" : "Mongolia", 
-    "KOR" : "South Korean", 
+    "KOR" : "South Korea", 
     "BRN" : "Brunei Darussalam", 
     "KHM" : "Cambodia", 
     "IDN" : "Indonesia", 
