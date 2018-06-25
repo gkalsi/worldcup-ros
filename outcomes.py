@@ -149,7 +149,7 @@ def print_results(group_standings, goal_differences, winpath, args):
 
     adv_thresh = MAX_POINTS + 1  # Advancement is certain
     gd_thresh = MAX_POINTS + 1   # Advancement decided by goal difference
-    # If more than 2 teams are tied for first place, print them all in yellow
+    # If more than 2 teams are tied for first place, print them all in purple 
     # otherwise print all first place teams in green.
     if fst_cut > 2:
         adv_thresh = MAX_POINTS + 1
@@ -180,7 +180,7 @@ def print_results(group_standings, goal_differences, winpath, args):
         if score > adv_thresh:
             print("\t%s%14s%s (%d)     " % (GREEN, print_name, END, score), end='')
         elif score > gd_thresh:
-            print("\t%s%14s%s (%d, %2d) " % (YELLOW, print_name, END, score, goal_differences[team]), end='')
+            print("\t%s%14s%s (%d, %2d) " % (PURPLE, print_name, END, score, goal_differences[team]), end='')
         else:
             print("\t%14s (%d)     " % (print_name, score), end='')
     print("")

@@ -25,7 +25,7 @@ for each of the groups.
 
 Matches denotes matches that are still yet to be played and Possible Outcomes lists which teams will advance given every possible match outcome.
 
-Teams highlighted in green advance to the round of 16 in a given scenario. Teams highlighted in yellow will be decided by goal difference. Teams in white will not advance.
+Teams highlighted in green advance to the round of 16 in a given scenario. Teams highlighted in purple will be decided by goal difference. Teams in white will not advance.
 
 The number in parentheses denotes the number of points each team has accumulated in a given scenario. If a team's advancement is decided by goal difference, the goal difference is also listed in parens next to the points. 
 
