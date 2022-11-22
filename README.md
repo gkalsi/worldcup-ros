@@ -1,6 +1,9 @@
-# Russia 2018 Round of 16
+# World Cup - Round of 16
 
-Visualize possible outcomes of the Russia 2018 World Cup
+Visualize possible outcomes of the Round of 16 at the World cup.
+
+Previously this repsository was called `russia-2018` but has since
+been generalized for the Qatar 2022 world cup.
 
 ## Usage
 ```
