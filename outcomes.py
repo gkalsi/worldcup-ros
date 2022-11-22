@@ -17,6 +17,7 @@ import argparse
 import codes
 import json
 import sys
+import os.path
 from operator import itemgetter
 
 import pprint
@@ -29,6 +30,10 @@ LIGHT_PURPLE = '\033[94m'
 PURPLE = '\033[95m'
 BOLD = '\033[1m'
 END = '\033[0m'
+
+ROOT_DATA_DIR='data'        # Data files are contained in `./data/<country-year>/...`
+GROUPS_FILE='groups.json'
+MATCHES_FILE='matches.json'
 
 def check_input_files(matches, groups):
     # Make sure no country appears more than once in the groups file.
@@ -248,10 +253,8 @@ def generate_possible_outcomes(matches, groups, points, target_group, goal_diffe
 def main():
     parser = argparse.ArgumentParser(description='Print information about the world cup')
 
-    parser.add_argument('--matches', '-m', default='matches.json',
-                        help='json file containing match result data')
-    parser.add_argument('--groups', '-g', default='groups.json',
-                        help='json file containing group data')
+    parser.add_argument('--data', '-d', default='russia-2018',
+                        help='name of the subdirectory under ./data/ to consider')
     parser.add_argument('--fullnames', '-f', action='store_true',
                         help='print full country names instead of ISO country codes')
     # TODO(gkalsi): Implement nocolour
@@ -263,10 +266,12 @@ def main():
 
     args = parser.parse_args()
 
-    with open(args.matches, 'r') as matches_file:
+    matches_path = os.path.join(ROOT_DATA_DIR, args.data, MATCHES_FILE)
+    with open(matches_path, 'r') as matches_file:
         matches = json.load(matches_file)
 
-    with open(args.groups, 'r') as groups_file:
+    groups_path = os.path.join(ROOT_DATA_DIR, args.data, GROUPS_FILE)
+    with open(groups_path, 'r') as groups_file:
         groups = json.load(groups_file)
 
     # Make sure that every match is played by a country in a group.

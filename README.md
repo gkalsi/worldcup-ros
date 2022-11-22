@@ -1,9 +1,17 @@
 # World Cup - Round of 16
 
-Visualize possible outcomes of the Round of 16 at the World cup.
+Visualize possible outcomes of the group stage at the World cup to decide who qualifies for the round of 16.
 
 Previously this repsository was called `russia-2018` but has since
 been generalized for the Qatar 2022 world cup.
+
+## Input Files
+All input data is stored as JSON data in the `data` directory.
+Each subdirectory contains 2 files:
+ + `groups.json` which lists the groups in the group stage
+ + `matches.json` which lists all the matches that are either yet to be played or have been played.
+
+A match that has not been played should have both teams' score listed as -1.
 
 ## Usage
 ```
