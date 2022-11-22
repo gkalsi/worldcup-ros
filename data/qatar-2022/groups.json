@@ -1,0 +1,10 @@
+{
+    "A" : ["QAT", "ECU", "SEN", "NLD"],
+    "B" : ["ENG", "IRN", "USA", "WLS"],
+    "C" : ["ARG", "SAU", "MEX", "POL"],
+    "D" : ["FRA", "AUS", "DNK", "TUN"],
+    "E" : ["ESP", "CRI", "DEU", "JPN"],
+    "F" : ["BEL", "CAN", "MAR", "HRV"],
+    "G" : ["BRA", "SRB", "CHE", "CMR"],
+    "H" : ["PRT", "GHA", "URY", "KOR"]
+}

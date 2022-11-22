@@ -253,7 +253,7 @@ def generate_possible_outcomes(matches, groups, points, target_group, goal_diffe
 def main():
     parser = argparse.ArgumentParser(description='Print information about the world cup')
 
-    parser.add_argument('--data', '-d', default='russia-2018',
+    parser.add_argument('--data', '-d', default='qatar-2022',
                         help='name of the subdirectory under ./data/ to consider')
     parser.add_argument('--fullnames', '-f', action='store_true',
                         help='print full country names instead of ISO country codes')
