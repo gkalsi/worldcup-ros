@@ -249,6 +249,7 @@ WLF = "WLF"
 
 # Non Standard, For Fifa
 ENG = "ENG"
+WLS = "WLS"
 
 Names = {
     "DZA" : "Algeria", 
@@ -501,5 +502,6 @@ Names = {
     "WLF" : "Wallis and Futuna Islands",
     
     # Non Standard
-    "ENG" : "England"
+    "ENG" : "England",
+    "WLS" : "Wales",
 }
